@@ -1,0 +1,15 @@
+#infoIcon {
+    cursor: pointer;
+    padding: 3px;
+}
+
+textarea {
+    resize: none;
+}
+
+footer {
+    background-color: #17a2b8;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
