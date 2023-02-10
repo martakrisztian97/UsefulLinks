@@ -15,10 +15,11 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/snow.js"></script>
+    <script src="js/events.js"></script>
 
     <title>Könyvek</title>
 </head>
-<body>
+<body onload="setEventImg();">
 
     <!-- Scroll to top start -->
     <i class="material-icons" id="myBtn" onclick="topFunction()" title="Scroll to top">keyboard_arrow_up</i>
@@ -47,6 +48,12 @@
                         </a>
                     </li>
                 </ul>
+
+                <!-- Event image start-->
+                <div class="event-img-div">
+                    <img id="event-img" src="images/events/empty.png" width="75" height="75">
+                </div>
+                <!-- Event image end-->
 
                 <!-- Clock widget start -->
                 <form class="form-inline my-2 my-lg-0">
