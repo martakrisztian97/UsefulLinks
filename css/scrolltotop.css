@@ -15,5 +15,6 @@
 }
 
 #myBtn:hover {
-    background-color: #555;
+    background-color: #444;
+    font-weight: bold;
 }

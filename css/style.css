@@ -16,7 +16,7 @@ body {
     color: beige;
 }
 
-footer {
+.footer-div {
     background-color: #6c757d;
     color: white;
     font-style: italic;
